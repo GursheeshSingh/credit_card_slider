@@ -1,8 +1,6 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'dart:math' as math;
-import 'package:flutter/foundation.dart' show precisionErrorTolerance;
 
 void main() => runApp(MyApp());
 
@@ -163,7 +161,7 @@ class CreditCard extends StatelessWidget {
     return Container(
       margin: EdgeInsets.symmetric(horizontal: 5),
       width: 300,
-      height: 300,
+      height: 225,
       decoration: decoration,
       padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
       child: Column(
